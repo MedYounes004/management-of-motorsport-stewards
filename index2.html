@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            BICYCLE.. Simple .. Clean .. Responsive theme
+        </title>
+        <meta charset="utf-8">
+        <!--CSS-->
+        
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!--Google Fonts-->
+         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    </head>
+    <body>
+       <header class="header" id="HOME">
+                 <!-- Navigation -->
+            
+            <nav class="navbar navbar-default navbar-fixed-top">
+              
+                
+                <div class="container">
+                  
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false"> -->
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                      <a class="navbar-brand" href="#">
+                          <!-- small size logo -->
+                          <img src="images/logobike.png" alt="logo">
+
+                        </a>
+                    </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#HOME" class="nav-item">ACCUEIL</a></li>
+                        <li><a href="#about" class="nav-item">SUIVI ET GESTION </a></li>
+                        <li><a href="#performers" class="nav-item">PERFORMANCE</a></li>
+                        <li><a href="#timeline" class="nav-item">EVOLUTION DE LA GESTION DES EPREUVES</a></li>
+                        <li><a href="#numbers" class="nav-item">COMPTEURS DES COURSES</a></li>
+                        <li><a href="#contact-us" class="nav-item">CONTACT</a></li>
+                  </ul>
+                 
+                 
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+</nav>
+           <div class="header-overlay">
+               <div class="container">
+                   <div class="row">
+                    <div class="col-md-12">
+                        <!--Logo-->
+                        <div class="logo text-center">
+                            <img src="images/logobike.png" height="80px" width="80px" class="logoimg" />
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-8 wow bounceIn">
+                        <div class="header-text">
+                            <h1>Gestion des Épreuves Sportives</h1>
+                            <p>Bienvenue sur notre plateforme dédiée à la gestion des épreuves sportives mécaniques, où vous pouvez organiser, suivre et analyser chaque compétition en toute simplicité.</p>
+                        </div>
+                        <div class="header-btns">
+                          <a href="#about">
+                              <i class="fa fa-angle-down wow bounceInUp"></i>
+                          </a>
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div class="header-col">
+                        
+                        <form role="form" class="header-form" method="POST" action="connexion.php" enctype="multipart/form-data" onsubmit="return validateForm()">
+                            <h2>inscription</h2>
+                            <div class="form-group">
+                                <input type="text" name="id_commissaire" placeholder="id_commissaire" class="form-control input-3x">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="id_licence" placeholder="id_licence" class="form-control input-3x" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="id_CCR" placeholder="id_CCR" class="form-control input-3x" >
+                            </div>
+                         
+                            <div class="form-group">
+                                <input type="text" name="id_ASSM" placeholder="id_ASSM" class="form-control input-3x">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="nom" placeholder="nom" class="form-control input-3x" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="prenom" placeholder="prenom" class="form-control input-3x">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="telephone" placeholder="telephone" class="form-control input-3x" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="salaire" placeholder="salaire" class="form-control input-3x" >
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" name="submit_inscription" class="btn btn-primary btn-3x">Envoyer <span> <i class="fa fa-angle-double-right"></i> </span></button>
+                            </div>
+                        </form>
+                        <script>
+                            function validateForm() {
+                                console.log("Formulaire en cours d'envoi...");
+                                return true; // Retourne false pour bloquer l'envoi si validation échoue
+                            }
+                            </script>
+                       </div>
+                        
+                    </div>
+                </div>
+                </div>
+                   <div class="row"></div>
+               </div>
+           </div>
+       </header>
+       <!--Section About-->
+       <section id="about">
+          
+           <div class="section-about">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 wow bounceIn">
+                          <h2 class="section-title">suivi et gestion</h2>
+                          <p class="under-heading">encadrement des épreuves sportives mécaniques</p>
+                      </div>
+                  </div>
+              </div>
+               <div class="section-wrapper">
+                   <div class="container">
+               <div class="row">
+                   <!-- Dans la section "suivi et gestion" -->
+<div class="col-md-4 wow bounceInDown">
+    <a href="#"><i class="fa fa-user fa-5x square"></i></a>
+    <h3 class="heading">performance </h3>
+    <p class="col-caption">les commissaires assurent le bon déroulement des épreuves sportives mécaniques</p>
+    <!-- Ajout du bouton -->
+    <button id="showCommissaires" class="btn btn-primary"onclick="myFunction()">Afficher les commissaires</button>
+    <!-- Zone d'affichage des résultats -->
+    <div id="commissairesList"></div>
+</div>
+ 
+
+
+
+
+
+                    <div class="col-md-4 wow bounceInDown"> 
+                       
+                           <a href="#"><i class="fa fa-bicycle fa-5x"></i></a> 
+                            <h3 class="heading">Sport</h3> 
+                            <p class="col-caption">motoGP/trial /superbike /motocross /enduro/ supermotard /hydroplane </p> 
+                            <button id="showtype" class="btn btn-primary"onclick="myFunction2()">Afficher les types des épreuves et nombre d'intervention</button>
+    <!-- Zone d'affichage des résultats -->
+    <div id="type"></div>
+                    </div> 
+                      
+
+
+
+                    <div class="col-md-4 wow bounceInRight">
+                       
+                           <a href="#"><i class="fa fa-location-arrow fa-5x"></i></a>
+                           <h3 class="heading">Campagne</h3>
+                           <p class="col-caption">les épreuves en sports mécaniques varient en fonction du type de véhicule utilisé(voiture, moto , avion , drone) et du format de la competition </p>
+                        <!-- Ajout du bouton -->
+    <button id="showepreuve" class="btn btn-primary"onclick="myFunction1()">Afficher les épreuves</button>
+    <!-- Zone d'affichage des résultats -->
+    <div id="epreuve"></div>
+                    </div>
+               </div>
+           </div>
+               </div>
+           </div>
+           
+       </section><!--end of about section-->
+       <!--Performers Section-->
+       <section class="performer-section" id="performers">
+           <div class="performer wow flipInY">
+            <div class="performer-overlay">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12">
+
+                                <h2 class="section-title">les meilleures performances</h2>
+
+                              </div>
+                          </div>
+                      </div>
+                       <div class="section-wrapper">
+                           <div class="container">
+                           <div class="row">
+                            <div class="col-md-12">
+                            <div id="carousel-performer" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#carousel-performer" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-performer" data-slide-to="1"></li>
+                                    <li data-target="#carousel-performer" data-slide-to="2"></li>
+                                  </ol>
+                                  <!-- Wrapper for slides -->
+                                  <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                      <img src="../bicycling/images/avatar_01.jpg" alt="Client01">
+                                      <div class="performer-caption">
+                                        <h2>commissaires <span class="job">   </span></h2>
+                                        <p>les meilleurs commissaires se distinguet par leur capacité à prendre des décisions rapides et précices, à garantir la sécurité des compétitions et à veillier au respect strict du réglement  </p>
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <img src="../bicycling/images/avatar_02.jpg" alt="Client02">
+                                      <div class="performer-caption">
+                                        <h2>stagiaire <span class="job">  </span></h2>
+                                        <p>en tant que stagiaire commissaire des épreuves sportives mécaniques votre role est d'assister à l'organisation , à la sécurité et au bon déroulement des compétions automobiles ou motocyclistes . votre performance est évaluée selon plusieurs critères clés : respect des régles et réglementations , reactivité et prise de décision , travail en équipe et communication .. </p>
+                                      </div>
+                                    </div>
+                                    
+                                   </div>
+                            
+                           </div>
+                        </div>
+                       </div>
+               
+                       </div>
+                       </div>
+               </div>
+               </div>
+       </section><!--End of Performers-->
+       <section class="why-us" id="timeline">
+            <div class="section-timeline">
+                <div class="container">
+                    <h2 class="heading"><span class="bold-green"> Evolution de la gestion des epreuves </span></h2>
+                  <p class="lead under-heading text-center">retour sur les momenrs clés de notre organisation  </p>
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-badge"><span class="counteryear">2016</span></div>
+                            <div class="timeline-panal wow bounceIn">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title"> <span class="blue-underline"> 6500 courses officiées</span> </h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o"></i>  </small></p>
+                                </div>
+                                <div class="timeline-body"><p> les commissiares ont assuré la supervision et la sécurité de 4500 courses officielles cette année  </p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge"><span class="counteryear">2015</span></div>
+                            <div class="timeline-panal  wow bounceIn">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title"><span class="blue-underline">5000 courses</span>   </h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>  </small></p>
+                                </div>
+                                <div class="timeline-body"><p>certification de niveau 1 des commissaires "formation et certification de la première promotion de commissaires spécialisés ".</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                        
+                        <li>
+                            <div class="timeline-badge"><span class="counteryear">2014</span></div>
+                            <div class="timeline-panal wow bounceIn">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title"><span class="blue-underline">première epreuve supervisée </span> </h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i>  </small></p>
+                                </div>
+                                <div class="timeline-body"><p>déploiment des premiers commissaires sur une course .</p></div>
+                            </div><!--end of timeline panel-->
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </section><!--end of timeline-->
+        <section id="numbers">
+            <div class="numbers-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-title">compteurs des courses</h2>
+                            <p class="under-heading">passez en revue nos chiffres</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-flag fa-5x"></i>
+                                    <div class="counter">34,653</div>
+                                    <p>Tours terminés</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-database fa-5x"></i>
+                                    <div class="counter">354</div>
+                                    <p>cartes de performance</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-bicycle fa-5x"></i>
+                                    <div class="counter">6466</div>
+                                    <p>voitures inclus</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="num-data block-inline">
+                                    <i class="fa fa-life-ring fa-5x"></i>
+                                    <div class="counter">1452</div>
+                                    <p> Tickets de support </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us">
+            <div class="contact-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 wow bounceInDown">
+                            <h2 class="section-title">formulaire d'inscription à l'épreuve de sport mécanique</h2>
+                            <p class="under-heading"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper">
+                    <div class="container">
+                        <form role="form" method="POST" action="conn.php">
+                            <div class="row">
+                                <div class="col-md-6 wow bounceInLeft">
+                                    <div class="form-group">
+                                        <input type="text" name="id_epreuve" placeholder="id-épreuve" class="form-control input-lg" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="id_ASSM" placeholder="id-ASSM" class="form-control input-lg" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="type_epreuve" placeholder="type_epreuve" class="form-control input-lg" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow bounceInRight">
+                                    <div class="form-group">
+                                        <input type="date" name="date_fin" placeholder="date_fin de l'épreuve" class="form-control input-lg" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="date" name="date_debut" placeholder="date_début de l'épreuve" class="form-control input-lg" required>
+                                        
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="adresse_epreuve" placeholder="adresse_epreuve" class="form-control input-lg" required>
+                            </div>
+                        </div>
+                        <button type="submit" name="submit_epreuve" class="btn btn-primary btn-block input-lg">envoyer</button>
+                    </div>
+                        </form>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="social-icons wow slideInDown">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus fa-3x"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram fa-3x"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="footer-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="footer-text" >Copyright <span class="copyright"> &copy;</span>2017</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="footer-text">Biking Theme</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="footer-text">Brought to you by <span class="usama"><a href="https://www.facebook.com/UsamaElsayed90">Usama Elsayed</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="loading-overlay">
+       <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+       </div>
+       </section>
+       
+       
+       
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script>
+            $(document).ready(function() {
+                // Gestion du clic sur le bouton
+                $('#showCommissaires').click(function() {
+                    // Requête AJAX pour charger affich.php
+                    $.ajax({
+                        url: 'affich.php',
+                        type: 'GET',
+                        success: function(response) {
+                            // Insère la réponse dans le div
+                            $('#commissairesList').html(response);
+                        },
+                        error: function() {
+                            $('#commissairesList').html('Erreur lors du chargement des données');
+                        }
+                    });
+                });
+                
+            });
+
+
+
+            $(document).ready(function() {
+                // Gestion du clic sur le bouton
+                $('#showepreuve').click(function() {
+                    // Requête AJAX pour charger affich.php
+                    $.ajax({
+                        url: 'affich1.php',
+                        type: 'GET',
+                        success: function(response) {
+                            // Insère la réponse dans le div
+                            $('#epreuve').html(response);
+                        },
+                        error: function() {
+                            $('#epreuve').html('Erreur lors du chargement des données');
+                        }
+                    });
+                });
+                
+            });
+            $(document).ready(function() {
+                // Gestion du clic sur le bouton
+                $('#showtype').click(function() {
+                    // Requête AJAX pour charger affich.php
+                    $.ajax({
+                        url: 'affich2.php',
+                        type: 'GET',
+                        success: function(response) {
+                            // Insère la réponse dans le div
+                            $('#type').html(response);
+                        },
+                        error: function() {
+                            $('#type').html('Erreur lors du chargement des données');
+                        }
+                    });
+                });
+                
+            });
+            </script> 
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("commissairesList");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+                function myFunction1() {
+                    var x = document.getElementById("epreuve");
+                    if (x.style.display === "none") {
+                      x.style.display = "block";
+                    } else {
+                      x.style.display = "none";
+                    }
+                  }
+                  function myFunction2() {
+                    var x = document.getElementById("type");
+                    if (x.style.display === "none") {
+                      x.style.display = "block";
+                    } else {
+                      x.style.display = "none";
+                    }
+                  }
+                </script>
+    </body>
+</html>
